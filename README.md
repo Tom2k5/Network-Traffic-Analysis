@@ -15,6 +15,3 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
 
-## Resources
-- <a href="https://www.malware-traffic-analysis.net/">Malware-Traffic</a>
-- <a href="https://cyberdefenders.org/blueteam-ctf-challenges/">Blueteam Labs</a>
