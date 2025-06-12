@@ -24,14 +24,14 @@
 - Notice some bad responses from our web server, like code 400s. These codes indicate a bad request from the client, so they can be a good place to start when detecting malicious actions via http/https. In order to filter for these, we can use the following
     - `http.response.code == 400`
     
-![[image 17.png|image 17.png](../../../../../Image/image%2017.png)
+![[image 17.png|image 17.png](../../Image/image%2017.png)
 
 ### **Tấn công HTTP Request Smuggling**
 
 - **HTTP Request Smuggling** là một kỹ thuật tấn công trong đó kẻ tấn công gửi một yêu cầu HTTP được thiết kế đặc biệt để máy chủ hiểu sai và xử lý thành nhiều yêu cầu khác nhau.
 - Ví dụ về một yêu cầu HTTP độc hại:
 
-    ![[image 1 14.png|image 1 14.png](../../../../../Image/image%201%2014.png)
+    ![[image 1 14.png|image 1 14.png](../../Image/image%201%2014.png)
     
 ```
 GET%20%2flogin.php%3fid%3d1%20HTTP%2f1.1%0d%0aHost%3a%20192.168.10.5%0d%0a%0d%0aGET%20%2fuploads%2fcmd2.php%20HTTP%2f1.1%0d%0aHost%3a%20127.0.0.1%3a8080%0d%0a%0d%0a%20HTTP%2f1.1 Host: 192.168.10.5

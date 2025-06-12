@@ -23,9 +23,9 @@ An attacker might conduct these packet crafting attacks towards the source and d
 1. `Initial Fragmentation from a fake address`
 2. `Some TCP traffic from the legitimate source address`
 
-![[image 11.png|image 11.png](../../../../../Image/image%2011.png)
+![[image 11.png|image 11.png](../../Image/image%2011.png)
 
-![[image 1 9.png|image 1 9.png](../../../../../Image/image%201%209.png)
+![[image 1 9.png|image 1 9.png](../../Image/image%201%209.png)
 
 ⇒ Ta có thể phát hiện Port Scanning.
 
@@ -37,14 +37,14 @@ An attacker might conduct these packet crafting attacks towards the source and d
     - Cuộc tấn công thực hiện ngược lại so với SMURF Attack, các client sẽ ping đến một thiết bị không tồn tại, thiết bị ấy sẽ reply toàn bộ.
     - Source IP bị spoof random lúc ban đầu để ping tới IP Destination được dựng lên.
     
-    ![[image 2 7.png|image 2 7.png](../../../../../Image/image%202%207.png)
+    ![[image 2 7.png|image 2 7.png](../../Image/image%202%207.png)
     
     - Các Reply có thể được fragmentation để tấn công, làm resource exhaustion.
 - Scenario 2:
     - Cuộc tấn công làm cạn kiệt tài nguyên của một cổng dịch vụ chỉ định.
     - Source IP bị spoof random.
 
-![[image 3 5.png|image 3 5.png](../../../../../Image/image%203%205.png)
+![[image 3 5.png|image 3 5.png](../../Image/image%203%205.png)
 
 ## **Finding Smurf Attacks**
 
@@ -55,15 +55,15 @@ An attacker might conduct these packet crafting attacks towards the source and d
     2. `The live hosts will respond to the legitimate victim host with an ICMP reply`
     3. `This may cause resource exhaustion on the victim host`
 
-![[image 4 4.png|image 4 4.png](../../../../../Image/image%204%204.png)
+![[image 4 4.png|image 4 4.png](../../Image/image%204%204.png)
 
 - We might notice many different hosts pinging our single host, and in this case it represents the basic nature of SMURF attacks.
 
-![[image 5 3.png|image 5 3.png](../../../../../Image/image%205%203.png)
+![[image 5 3.png|image 5 3.png](../../Image/image%205%203.png)
 
 ## LAND Attacks
 
 - Tấn công LAND là một loại tấn công từ chối dịch vụ (DoS), trong đó kẻ tấn công đặt địa chỉ IP nguồn giống với địa chỉ IP đích. Gói tin độc hại này được gửi đến hệ thống mục tiêu, khiến hệ thống cố gắng giao tiếp với chính nó, dẫn đến sự nhầm lẫn và cạn kiệt tài nguyên hệ thống.
 - Cuộc tấn công hoạt động thông qua lưu lượng truy cập lớn và việc tái sử dụng cổng, gây khó khăn cho việc thiết lập các kết nối hợp lệ đến máy chủ bị ảnh hưởng. Khi máy mục tiêu cố gắng trả lời, nó sẽ đi vào một vòng lặp, liên tục gửi các phản hồi cho chính nó, điều này cuối cùng có thể khiến máy nạn nhân bị sập.
 
-![[image 6 2.png|image 6 2.png](../../../../../Image/image%206%202.png)
+![[image 6 2.png|image 6 2.png](../../Image/image%206%202.png)

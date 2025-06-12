@@ -1,4 +1,4 @@
-![[image 12.png|image 12.png](../../../../../Image/image%2012.png)
+![[image 12.png|image 12.png](../../Image/image%2012.png)
 
 - Time-to-Live attacks are primarily utilized as a means of evasion by attackers. Basically speaking the attacker will intentionally set a very low TTL on their IP packets in order to attempt to evade firewalls, IDS, and IPS systems. These work like the following.
 
@@ -11,11 +11,11 @@
 
 - A returned SYN, ACK message from one of our legitimate service ports on our affected host. In doing so, the attacker might have successfully evaded one of our firewall controls.
 
-![[image 1 10.png|image 1 10.png](../../../../../Image/image%201%2010.png)
+![[image 1 10.png|image 1 10.png](../../Image/image%201%2010.png)
 
 - So, if we were to open one of these packets, we could realistically see why this is. Suppose we opened the IPv4 tab in Wireshark for any of these packets. We might notice a very low TTL like the following.
 
-![[image 2 8.png|image 2 8.png](../../../../../Image/image%202%208.png)
+![[image 2 8.png|image 2 8.png](../../Image/image%202%208.png)
 
 ## Solution
 

@@ -1,6 +1,6 @@
 ## **How Address Resolution Protocol Works**
 
-![[image 6.png|image 6.png](../../../../../Image/image%206.png)
+![[image 6.png|image 6.png](../../Image/image%206.png)
 
 ## **ARP Poisoning & Spoofing**
 
@@ -34,7 +34,7 @@
 
 ## **Finding ARP Spoofing**
 
-![[image 1 4.png|image 1 4.png](../../../../../Image/image%201%204.png)
+![[image 1 4.png|image 1 4.png](../../Image/image%201%204.png)
 
 - `08:00:27:53:0C:BA` is suspicious.
 - The opcode functionality in ARP:
@@ -42,22 +42,22 @@
     - `Opcode == 2`: ARP Replies.
 - Notice a red flag - an address duplication, accompanied by a warning message.
 
-![[image 2 4.png|image 2 4.png](../../../../../Image/image%202%204.png)
+![[image 2 4.png|image 2 4.png](../../Image/image%202%204.png)
 
 - To shift through more duplicate records:
     - `arp.duplicate-address-detected && arp.opcode == 2`
 
 ## **Identifying The Original IP Addresses**
 
-![[image 3 3.png|image 3 3.png](../../../../../Image/image%203%203.png)
+![[image 3 3.png|image 3 3.png](../../Image/image%203%203.png)
 
-![[image 4 2.png|image 4 2.png](../../../../../Image/image%204%202.png)
+![[image 4 2.png|image 4 2.png](../../Image/image%204%202.png)
 
 - `08:00:27:53:0c:ba` was initially linked to the IP address `192.168.10.5`, but this was recently switched to `192.168.10.4`.
 
 ### Hành vi tấn công
 
-![[image 5 2.png|image 5 2.png](../../../../../Image/image%205%202.png)
+![[image 5 2.png|image 5 2.png](../../Image/image%205%202.png)
 
 - **Kẻ tấn công không chuyển tiếp lưu lượng**
     - **Dấu hiệu**: Các kết nối TCP liên tục bị ngắt (dropping).

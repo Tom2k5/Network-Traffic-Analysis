@@ -1,9 +1,9 @@
 - Nhà phân tích bảo mật cần biết cách sử dụng các tệp khóa để giải mã lưu lượng đã được mã hóa và điều tra hoạt động của lưu lượng.
 - Các gói dữ liệu sẽ xuất hiện với màu sắc khác nhau khi lưu lượng HTTP được mã hóa. Thông tin chi tiết về giao thức và thông tin (địa chỉ URL thực tế và dữ liệu trả về từ máy chủ) sẽ không hoàn toàn hiển thị.
 
-![[image 33.png|image 33.png](../../../../../../../Image/image%2033.png)
+![[image 33.png|image 33.png](../../../../Image/image%2033.png)
 
-![[image 1 28.png|image 1 28.png](../../../../../../../Image/image%201%2028.png)
+![[image 1 28.png|image 1 28.png](../../../../Image/image%201%2028.png)
 
 ## **Quy trình bắt tay TLS**
 
@@ -15,7 +15,7 @@
 - **Client Hello:** `**(http.request or tls.handshake.type == 1) and !(ssdp)**`
 - **Server Hello:** `**(http.request or tls.handshake.type == 2) and !(ssdp)**`
 
-![[image 2 22.png|image 2 22.png](../../../../../../../Image/image%202%2022.png)
+![[image 2 22.png|image 2 22.png](../../../../Image/image%202%2022.png)
 
 ## Encryption key log file
 
@@ -23,15 +23,15 @@
 - Để thực hiện điều này, bạn cần cấu hình hệ thống của mình và sử dụng trình duyệt phù hợp (Chrome và Firefox hỗ trợ) để lưu những giá trị này dưới dạng tệp nhật ký khóa. Bạn cần thiết lập một biến môi trường và tạo tệp **SSLKEYLOGFILE**, sau đó trình duyệt sẽ ghi lại các khóa vào tệp này khi bạn duyệt vào web.
 - **Adding key log files with the** `**"right-click"**`**menu:**
 
-![[image 3 16.png|image 3 16.png](../../../../../../../Image/image%203%2016.png)
+![[image 3 16.png|image 3 16.png](../../../../Image/image%203%2016.png)
 
 - **Adding key log files with the** `**"Edit --> Preferences --> Protocols --> TLS"**` **menu:**
 
-![[image 4 14.png|image 4 14.png](../../../../../../../Image/image%204%2014.png)
+![[image 4 14.png|image 4 14.png](../../../../Image/image%204%2014.png)
 
 - **Viewing the traffic with/without the key log files:**
 
-![[image 5 12.png|image 5 12.png](../../../../../../../Image/image%205%2012.png)
+![[image 5 12.png|image 5 12.png](../../../../Image/image%205%2012.png)
 
 ⇒ Khi không sử dụng tệp khóa TLS (key log file), bạn sẽ không thấy gói tin HTTP nào trong lưu lượng HTTPS vì các gói tin này được mã hóa.
 
@@ -58,7 +58,7 @@
 
 1. **What is the frame number of the "Client Hello" message sent to "[accounts.google.com](http://accounts.google.com/)"?**
 
-![[image 6 7.png|image 6 7.png](../../../../../../../Image/image%206%207.png)
+![[image 6 7.png|image 6 7.png](../../../../Image/image%206%207.png)
 
 - `**ssl.handshake.type == 1**` filters for **"Client Hello"** messages.
 - `**ssl.handshake.extensions_server_name == "accounts.google.com"**` ensures that you are specifically looking for messages directed at **"accounts.google.com"** as there are many domain name used on an IP address.
@@ -74,10 +74,10 @@
     ⇒ Xác định máy chủ mà client muốn kết nối, giúp cải thiện tính nhất quán và hiệu quả trong quá trình truyền tải dữ liệu.
     
 
-![[image 7 5.png|image 7 5.png](../../../../../../../Image/image%207%205.png)
+![[image 7 5.png|image 7 5.png](../../../../Image/image%207%205.png)
 
 1. **Investigate the decrypted packets and find the flag! What is the flag?**
 
-![[image 8 3.png|image 8 3.png](../../../../../../../Image/image%208%203.png)
+![[image 8 3.png|image 8 3.png](../../../../Image/image%208%203.png)
 
 - Export Object để lấy flag.

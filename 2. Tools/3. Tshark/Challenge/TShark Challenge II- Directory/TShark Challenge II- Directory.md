@@ -58,14 +58,14 @@
 
 ---
 
-![[image 37.png|image 37.png](../../../../../../../Image/image%2037.png)
+![[image 37.png|image 37.png](../../../../Image/image%2037.png)
 
 - `tshark -r directory-curiosity.pcap -V | grep -50` `[jx2-bavuong.com](http://jx2-bavuong.com/)`
 
-![[image 1 31.png|image 1 31.png](../../../../../../../Image/image%201%2031.png)
+![[image 1 31.png|image 1 31.png](../../../../Image/image%201%2031.png)
 
 - `tshark -r directory-curiosity.pcap -z follow,tcp,ascii,0 -q`
 
-![[image 2 25.png|image 2 25.png](../../../../../../../Image/image%202%2025.png)
+![[image 2 25.png|image 2 25.png](../../../../Image/image%202%2025.png)
 
 ⇒ 123.php , vlauto.exe, vlauto.php

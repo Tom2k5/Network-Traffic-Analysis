@@ -13,15 +13,15 @@
     - **Packet filter (pf)**: Tường lửa cho OpenBSD.
     - **Windows Firewall (netsh định dạng mới/cũ)**: Tường lửa tích hợp trong Windows.
         
-        ![[image 35.png|image 35.png](../../../../../../../Image/image%2035.png)
+        ![[image 35.png|image 35.png](../../../../Image/image%2035.png)
         
     
     ## Answer the questions:
     
     1. **Select packet number 99. Create a rule for "IPFirewall (ipfw)". What is the rule for "denying source IPv4 address"?**
         
-        ![[image 1 30.png|image 1 30.png](../../../../../../../Image/image%201%2030.png)
+        ![[image 1 30.png|image 1 30.png](../../../../Image/image%201%2030.png)
         
     2. **Select packet number 231. Create "IPFirewall" rules. What is the rule for "allowing destination MAC address"?**
 
-![[image 2 24.png|image 2 24.png](../../../../../../../Image/image%202%2024.png)
+![[image 2 24.png|image 2 24.png](../../../../Image/image%202%2024.png)

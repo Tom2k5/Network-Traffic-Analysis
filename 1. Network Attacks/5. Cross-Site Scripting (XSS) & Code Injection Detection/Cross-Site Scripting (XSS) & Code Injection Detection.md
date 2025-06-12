@@ -13,7 +13,7 @@
     - Nếu chúng ta nhận thấy một lượng lớn yêu cầu HTTP được gửi đến một máy chủ nội bộ không xác định, đây có thể là dấu hiệu của XSS.
     - Example: Các yêu cầu chứa dữ liệu như cookie hoặc token được mã hóa hoặc không rõ ràng.
     
-    ![[image 18.png|image 18.png](../../../../../Image/image%2018.png)
+    ![[image 18.png|image 18.png](../../Image/image%2018.png)
     
 2. **Kiểm tra mã độc hại**:
     - Kẻ tấn công có thể chèn mã JavaScript vào các phần của trang web.

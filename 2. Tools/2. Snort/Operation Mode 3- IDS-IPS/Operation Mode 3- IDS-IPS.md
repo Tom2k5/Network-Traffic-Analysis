@@ -124,21 +124,21 @@ Daemon parent exiting (0)
     
     - **Lệnh:** `sudo snort -c /etc/snort/snort.conf -A fast`
     
-    ![[image 24.png|image 24.png](../../../../../../Image/image%2024.png)
+    ![[image 24.png|image 24.png](../../../Image/image%2024.png)
     
     - **Kết quả**: Không hiển thị trên terminal, ghi vào file alert với thông tin cơ bản (thời gian, IP, cổng).
 - `**-A full**`
     
     - **Lệnh**: `sudo snort -c /etc/snort/snort.conf -A full`
     
-    ![[image 1 19.png|image 1 19.png](../../../../../../Image/image%201%2019.png)
+    ![[image 1 19.png|image 1 19.png](../../../Image/image%201%2019.png)
     
     - **Kết quả**: Ghi mọi chi tiết vào file alert (header, payload, v.v.), không hiển thị trên terminal.
 - `**-A none**`
     
     - **Lệnh**:`sudo snort -c /etc/snort/snort.conf -A none`
     
-    ![[image 2 14.png|image 2 14.png](../../../../../../Image/image%202%2014.png)
+    ![[image 2 14.png|image 2 14.png](../../../Image/image%202%2014.png)
     
     - **Kết quả**: Không tạo file alert, chỉ ghi log nhị phân.
 

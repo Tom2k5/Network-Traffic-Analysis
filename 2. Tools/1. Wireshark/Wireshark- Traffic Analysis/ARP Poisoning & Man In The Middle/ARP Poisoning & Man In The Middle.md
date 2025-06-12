@@ -37,7 +37,7 @@
 
 - **ARP request && ARP reply:**
 
-![[image 29.png|image 29.png](../../../../../../../Image/image%2029.png)
+![[image 29.png|image 29.png](../../../../Image/image%2029.png)
 
 - **ARP Spoofing:**
 
@@ -45,7 +45,7 @@
 
 ⇒ MAC address với đuôi `b4` cho rằng mình là `192.168.1.1` với ARP request từ `192.168.1.25` .
 
-![[image 1 24.png|image 1 24.png](../../../../../../../Image/image%201%2024.png)
+![[image 1 24.png|image 1 24.png](../../../../Image/image%201%2024.png)
 
 |Notes|Detection Notes|Findings|
 |---|---|---|
@@ -57,7 +57,7 @@
 
 ⇒ **SUS situation:** MAC address đuôi `b4` tạo ra một đống ARP request với `192.168.1.25` .
 
-![[image 2 18.png|image 2 18.png](../../../../../../../Image/image%202%2018.png)
+![[image 2 18.png|image 2 18.png](../../../../Image/image%202%2018.png)
 
 |Notes|Detection Notes|Findings|
 |---|---|---|
@@ -72,11 +72,11 @@
 
 - **HTTP Traffic:**
 
-![[image 3 12.png|image 3 12.png](../../../../../../../Image/image%203%2012.png)
+![[image 3 12.png|image 3 12.png](../../../../Image/image%203%2012.png)
 
 - **Phân tích HTTP Traffic:**
 
-![[image 4 10.png|image 4 10.png](../../../../../../../Image/image%204%2010.png)
+![[image 4 10.png|image 4 10.png](../../../../Image/image%204%2010.png)
 
 ⇒ The MAC address that ends with `b4` is the destination of all HTTP packets.
 
@@ -121,6 +121,6 @@
     
 5. What is the comment provided by the "Client354"?
     
-    ![[image 5 8.png|image 5 8.png](../../../../../../../Image/image%205%208.png)
+    ![[image 5 8.png|image 5 8.png](../../../../Image/image%205%208.png)
     
     ⇒ `http.file_data contains "client354"`

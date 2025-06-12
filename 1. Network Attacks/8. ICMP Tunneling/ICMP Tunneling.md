@@ -23,12 +23,12 @@
 
 - The data is something reasonable like 48 bytes.
 
-![[image 15.png|image 15.png](../../../../../Image/image%2015.png)
+![[image 15.png|image 15.png](../../Image/image%2015.png)
 
 - A suspicious ICMP request might have a large data length like 38000 bytes.
 
-![[image 1 13.png|image 1 13.png](../../../../../Image/image%201%2013.png)
+![[image 1 13.png|image 1 13.png](../../Image/image%201%2013.png)
 
 - This is a direct indication of ICMP tunneling. More advanced adversaries will utilize encoding or encryption when transmitting exfiltrated data, even in the case of ICMP tunneling.
 
-![[image 2 10.png|image 2 10.png](../../../../../Image/image%202%2010.png)
+![[image 2 10.png|image 2 10.png](../../Image/image%202%2010.png)

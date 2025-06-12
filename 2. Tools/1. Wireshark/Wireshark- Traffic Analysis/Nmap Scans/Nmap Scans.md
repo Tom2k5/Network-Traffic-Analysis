@@ -24,11 +24,11 @@
     - Used by non-root users.
     - A windows size > 1024 bytes as the request expects some data due to the nature of the protocol.
 
-![[image 28.png|image 28.png](../../../../../../../Image/image%2028.png)
+![[image 28.png|image 28.png](../../../../Image/image%2028.png)
 
 - **TCP Scan Pattern:** `**tcp.flags.syn==1 and tcp.flags.ack==0 and tcp.window_size > 1024**` 
 
-![[image 1 23.png|image 1 23.png](../../../../../../../Image/image%201%2023.png)
+![[image 1 23.png|image 1 23.png](../../../../Image/image%201%2023.png)
 
 ### ==2.== ==**SYN Scans**==
 
@@ -38,11 +38,11 @@
     - Used by privileged users.
     - A size ≤ 1024 bytes as the request is not finished and it doesn't expect to receive data.
 
-![[image 2 17.png|image 2 17.png](../../../../../../../Image/image%202%2017.png)
+![[image 2 17.png|image 2 17.png](../../../../Image/image%202%2017.png)
 
 - **SYN scan pattern:** `**tcp.flags.syn==1 and tcp.flags.ack==0 and tcp.window_size <= 1024**`  
 
-![[image 3 11.png|image 3 11.png](../../../../../../../Image/image%203%2011.png)
+![[image 3 11.png|image 3 11.png](../../../../Image/image%203%2011.png)
 
 ### ==3.== ==**UDP Scans**==
 
@@ -52,15 +52,15 @@
     - ICMP error message for close ports.
     -  `**nmap -sU**` command.
 
-![[image 4 9.png|image 4 9.png](../../../../../../../Image/image%204%209.png)
+![[image 4 9.png|image 4 9.png](../../../../Image/image%204%209.png)
 
 - **Closed (port no 69) and open (port no 68) UDP ports:**
 
-![[image 5 7.png|image 5 7.png](../../../../../../../Image/image%205%207.png)
+![[image 5 7.png|image 5 7.png](../../../../Image/image%205%207.png)
 
 - **UDP scan pattern:** `**icmp.type==3 and icmp.code==3**` 
 
-![[image 6 4.png|image 6 4.png](../../../../../../../Image/image%206%204.png)
+![[image 6 4.png|image 6 4.png](../../../../Image/image%206%204.png)
 
 ---
 
@@ -76,6 +76,6 @@
 
 1. Which UDP port in the 55-70 port range is open?
 
-![[image 7 2.png|image 7 2.png](../../../../../../../Image/image%207%202.png)
+![[image 7 2.png|image 7 2.png](../../../../Image/image%207%202.png)
 
 ⇒ `udp.port in {55 .. 70}`

@@ -5,6 +5,6 @@
 - Data exfiltration
 - Command and control traffic (C2)
 
-![[image 38.png|image 38.png](../../../../../../../../Image/image%2038.png)
+![[image 38.png|image 38.png](../../../../../Image/image%2038.png)
 
-![[image 1 32.png|image 1 32.png](../../../../../../../../Image/image%201%2032.png)
+![[image 1 32.png|image 1 32.png](../../../../../Image/image%201%2032.png)
