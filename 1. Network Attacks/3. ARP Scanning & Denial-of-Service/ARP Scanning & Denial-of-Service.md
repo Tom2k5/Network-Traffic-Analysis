@@ -8,7 +8,7 @@ Some typical red flags indicative of ARP scanning are:
 
 ## **Finding ARP Scanning**
 
-![[image 7.png|image 7.png](../../Image/image%207.png)
+![](../../Image/image%207.png)
 
 - Nếu thấy một máy tính duy nhất gửi yêu cầu ARP đến tất cả các địa chỉ IP trong mạng, đây là dấu hiệu của ARP Scanning.
 
@@ -17,7 +17,7 @@ Some typical red flags indicative of ARP scanning are:
 - An attacker can exploit ARP scanning to compile a list of live hosts.
 - Upon acquiring this list, the attacker might alter their strategy to deny service to all these machines. Essentially, they will strive to contaminate an entire subnet and manipulate as many ARP caches as possible.
 
-![[image 1 5.png|image 1 5.png](../../Image/image%201%205.png)
+![](../../Image/image%201%205.png)
 
 - `53:0c:ba` là attacker, `e2:d5:c3` là router, còn lại là client.
 - Corrupt the router's ARP cache bằng cách thay thế toàn bộ IP của client trong router.

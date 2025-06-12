@@ -3,12 +3,11 @@
 - An adversary wanted to cause denial-of-service conditions within our network. They might employ a simple TCP RST Packet injection attack, or TCP connection termination in simple terms.
 
 This attack is a combination of a few conditions:
-
 1. `The attacker will spoof the source address to be the affected machine's` (ARP poisoning, ARP spoofing).
 2. `The attacker will modify the TCP packet to contain the RST flag to terminate the connection`
 3. `The attacker will specify the destination port to be the same as one currently in use by one of our machines.`
 
-![[image 14.png|image 14.png](../../Image/image%2014.png)
+![](../../Image/image%2014.png)
 
 ## **TCP Connection Hijacking**
 
@@ -25,4 +24,4 @@ This attack is a combination of a few conditions:
     - **Trì hoãn** các gói tin ACK.
     - **Chặn hoàn toàn** các gói tin ACK bằng cách sử dụng các kỹ thuật như **ARP Poisoning** (Đầu độc ARP).
 
-![[image 1 12.png|image 1 12.png](../../Image/image%201%2012.png)
+![](../../Image/image%201%2012.png)

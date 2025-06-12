@@ -1,6 +1,6 @@
-|                         |                                                   |
-| ----------------------- | ------------------------------------------------- |
+
 | **Parameter**           | **Description**                                   |
+| ----------------------- | ------------------------------------------------- |
 | **-r / --pcap-single=** | Read a single pcap                                |
 | **--pcap-list=""**      | Read pcaps provided in command (space separated). |
 | **--pcap-show**         | Show pcap name on console during processing.      |

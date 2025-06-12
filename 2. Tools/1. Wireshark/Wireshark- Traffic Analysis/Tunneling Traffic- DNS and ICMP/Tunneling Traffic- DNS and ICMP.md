@@ -32,18 +32,18 @@ Tunneling cũng cho phép kẻ tấn công vượt qua các rào cản bảo m�
 
 - **Internet Control Message Protocol (ICMP)** is designed for diagnosing and reporting network communication issues. It is highly used in error reporting and testing. As it is a trusted network layer protocol, sometimes it is used for denial of service (DoS) attacks; also, adversaries use it in data exfiltration and C2 tunnelling activities.
 
-![[image 31.png|image 31.png](../../../../Image/image%2031.png)
+![](../../../../Image/image%2031.png)
 
-![[image 1 26.png|image 1 26.png](../../../../Image/image%201%2026.png)
+![](../../../../Image/image%201%2026.png)
 
 ## DNS Analysis
 
 - **Domain Name System (DNS)** is designed to translate/convert IP domain addresses to IP addresses. It is also known as a phonebook of the internet. As it is the essential part of web services, it is commonly used and trusted, and therefore often ignored. Due to that, adversaries use it in data exfiltration and C2 activities.
 
-![[image 2 20.png|image 2 20.png](../../../../Image/image%202%2020.png)
+![](../../../../Image/image%202%2020.png)
 
-![[image 3 14.png|image 3 14.png](../../../../Image/image%203%2014.png)
+![](../../../../Image/image%203%2014.png)
 
-![[image 4 12.png|image 4 12.png](../../../../Image/image%204%2012.png)
+![](../../../../Image/image%204%2012.png)
 
-![[image 5 10.png|image 5 10.png](../../../../Image/image%205%2010.png)
+![](../../../../Image/image%205%2010.png)

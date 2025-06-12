@@ -5,7 +5,7 @@
 - In order to establish an encrypted connection, the client and server must undergo the handshake process.
 - TLS and SSL handshakes are mostly similar in their steps.
 
-![[image 19.png|image 19.png](../../Image/image%2019.png)
+![](../../Image/image%2019.png)
 
 ### **1. Client Hello**
 - **Mục đích**: Máy khách gửi thông tin ban đầu để bắt đầu quá trình kết nối.
@@ -56,7 +56,7 @@ ssl.record.content_type == 22
 
 - **Content type 22** đại diện cho các thông điệp bắt tay (Handshake Messages).
 
-![[image 1 15.png|image 1 15.png](../../Image/image%201%2015.png)
+![](../../Image/image%201%2015.png)
 
 1. **Nhiều thông điệp Client Hello**:
     - Một dấu hiệu rõ ràng của tấn công SSL Renegotiation là việc xuất hiện nhiều thông điệp **Client Hello** từ một máy khách trong thời gian ngắn.

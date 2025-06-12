@@ -3,7 +3,7 @@
 
 ⇒ Khuyến nghị thực hiện kiểm tra thủ công và không hoàn toàn dựa vào tính năng này để quyết định xem có thông tin xác thực dưới dạng văn bản rõ trong lưu lượng hay không.
 
-![[image 34.png|image 34.png](../../../../Image/image%2034.png)
+![](../../../../Image/image%2034.png)
 
 ---
 
@@ -11,8 +11,8 @@
 
 1. **What is the packet number of the credentials using "HTTP Basic Auth"?**
 
-![[image 1 29.png|image 1 29.png](../../../../Image/image%201%2029.png)
+![](../../../../Image/image%201%2029.png)
 
 1. **What is the packet number where "empty password" was submitted?**
     
-    ![[image 2 23.png|image 2 23.png](../../../../Image/image%202%2023.png)
+    ![](../../../../Image/image%202%2023.png)

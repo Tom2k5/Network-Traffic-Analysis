@@ -1,6 +1,6 @@
 ## **Excessive SYN Flags**
 
-![[image 13.png|image 13.png](../../Image/image%2013.png)
+![](../../Image/image%2013.png)
 
 - It is worth noting that there are two primary scan types we might detect that use the SYN flag. These are:
 
@@ -14,7 +14,7 @@
 1. `If the port is open` - The system will not respond at all since there is no flags.
 2. `If the port is closed` - The system will respond with an RST packet.
 
-![[image 1 11.png|image 1 11.png](../../Image/image%201%2011.png)
+![](../../Image/image%201%2011.png)
 
 ## **Too Many ACKs**
 
@@ -23,7 +23,7 @@ In this case the attacker might be employing the usage of an ACK scan. In the ca
 1. `If the port is open` - The affected machine will either not respond, or will respond with an RST packet.
 2. `If the port is closed` - The affected machine will respond with an RST packet.
 
-![[image 2 9.png|image 2 9.png](../../Image/image%202%209.png)
+![](../../Image/image%202%209.png)
 
 ## **Excessive FINs**
 
@@ -32,7 +32,7 @@ In this case, all TCP packets will be marked with the FIN flag. We might notice 
 1. `If the port is open` - Our affected machine simply will not respond.
 2. `If the port is closed` - Our affected machine will respond with an RST packet.
 
-![[image 3 6.png|image 3 6.png](../../Image/image%203%206.png)
+![](../../Image/image%203%206.png)
 
 ## **Just too many flags**
 
@@ -41,4 +41,4 @@ In this case, all TCP packets will be marked with the FIN flag. We might notice 
 1. `If the port is open` - The affected machine will not respond, or at least it will with an RST packet.
 2. `If the port is closed` - The affected machine will respond with an RST packet.
 
-![[image 4 5.png|image 4 5.png](../../Image/image%204%205.png)
+![](../../Image/image%204%205.png)

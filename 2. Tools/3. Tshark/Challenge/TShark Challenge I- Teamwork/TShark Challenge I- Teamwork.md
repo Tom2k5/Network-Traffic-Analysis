@@ -41,4 +41,4 @@
 
 - `tshark -r teamwork.pcap -V -Y "http" | gre[ "gmail"`
 
-![[image 36.png|image 36.png](../../../../Image/image%2036.png)
+![](../../../../Image/image%2036.png)

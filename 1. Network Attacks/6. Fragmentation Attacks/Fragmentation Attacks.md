@@ -15,14 +15,14 @@
 - For starters, we might notice several ICMP requests going to one host from another, this is indicative of the starting requests from a traditional Nmap scan.
 - Emulation: `TAH19@htb[/htb]``**$**` `nmap <host ip>`
 
-![[image 10.png|image 10.png](../../Image/image%2010.png)
+![](../../Image/image%2010.png)
 
 - Fragment Attack Emulation : `TAH19@htb[/htb]``**$**` `nmap -f 10 <host ip>`
 
 ⇒ Generate IP packet Fragments with a maximum size of 10.
 
-![[image 1 8.png|image 1 8.png](../../Image/image%201%208.png)
+![](../../Image/image%201%208.png)
 
 - Reply with RST (closed port) ⇒ Scan to verify Port Active.
 
-![[image 2 6.png|image 2 6.png](../../Image/image%202%206.png)
+![](../../Image/image%202%206.png)

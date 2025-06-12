@@ -23,7 +23,7 @@
     - Một máy chủ liên tục cố gắng truy cập các tập tin không tồn tại trên máy chủ web của bạn (thường trả về mã lỗi 404).
     - Máy chủ đó gửi các yêu cầu này một cách nhanh chóng và liên tục.
 
-![[image 16.png|image 16.png](../../Image/image%2016.png)
+![](../../Image/image%2016.png)
 
 - **Cách kẻ tấn công tránh bị phát hiện:**
     - **Gửi các yêu cầu rải rác trong một khoảng thời gian dài hơn:** Thay vì gửi yêu cầu liên tục, kẻ tấn công có thể làm chậm tốc độ để tránh bị phát hiện.
